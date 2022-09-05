@@ -74,16 +74,29 @@ input{
 }
 
 .seccionDos{
-    height: 300px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-direction: column;
 }
+
+.seccionDos img{
+    width: 20px;
+}
 p{
     margin-bottom: 10px;
     margin-top: 10px;
     font-weight: bold;
+}
+
+#copiado{
+    font-size: 0.75em;
+    padding: 0%;
+}
+
+#botonCopiar{
+    margin-top: 10px;
 }
 
 #areaDos{ 
@@ -95,10 +108,21 @@ p{
     
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
 footer p{
     text-align: center;
 }
 
 footer img{
     height: 15px;
+}
+
+.ocultar{
+    display: none;
 }

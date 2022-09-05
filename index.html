@@ -22,7 +22,7 @@
                 
                 <div class="botones">
                     <a href="#areaDos"><input type="button" value="Encriptar" onclick="encriptar()"></a>
-                    <input type="button" value="Desencriptar">
+                    <input type="button" value="Desencriptar" onclick="desEncriptar()">
                 </div>
             </section>
             <div class="separador"></div>
@@ -30,7 +30,8 @@
                 <div class="seccionDos">
                         <p>Texto Encriptado</p>
                         <textarea id="areaDos"></textarea>
-                        <input type="button" id="botonCopiar" value="Copiar">
+                        <p id="copiado" style="color: green; font-weight: bold;">✔ Texto copiado al portapapeles</p>
+                        <input type="button" id="botonCopiar" value="Copiar" onclick="copiar()">
                 </div>
             </section>
         </div>
