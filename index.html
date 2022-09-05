@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Alura - One</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="logo alura" id="logo">
+        <h1>Encriptador</h1>
+    </header>
+    <main>
+        <div class="principal">
+            <section>
+                <div class="seccionUno">
+                    <textarea id="areaUno" placeholder="Ingrese el texto aqui"></textarea>
+                   <p><img src="advertencia.png" alt="advertencia" id="advertencia"> Solo letras en miniscula, sin acentos ni caracteres especiales.</p></div>
+                
+                <div class="botones">
+                    <a href="#areaDos"><input type="button" value="Encriptar" onclick="encriptar()"></a>
+                    <input type="button" value="Desencriptar">
+                </div>
+            </section>
+            <div class="separador"></div>
+            <section>
+                <div class="seccionDos">
+                        <p>Texto Encriptado</p>
+                        <textarea id="areaDos"></textarea>
+                        <input type="button" id="botonCopiar" value="Copiar">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p><a href="https://www.linkedin.com/in/edumredumr/"><img src="logoLinkedin.png" alt="Link a linkedin"></a> Eduardo Ruggiero - Challenge  <a href="https://www.aluracursos.com/">Alura</a></p>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

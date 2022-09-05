@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+body{
+    font-family: monospace, sans-serif;  
+    background-color: rgb(235, 233, 233);
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+#logo{
+    width: 30%;
+    padding: 0px;
+    margin: 10px;   
+
+}
+
+.seccionUno{
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#areaUno{
+    resize: none;
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.seccionUno p{
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.botones{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+        
+}
+input{
+    color: lightgrey;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    background: #0A3871;
+    border-radius: 24px;
+    margin-top: 5px;
+    margin-right: 10px;
+    transition: 1s;
+    
+}
+
+.separador{
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+
+}
+
+.seccionDos{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#areaDos{ 
+    height: 80%;
+    width: 80%;
+    resize: none;
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+
+footer p{
+    text-align: center;
+}
+
+footer img{
+    height: 15px;
+}
